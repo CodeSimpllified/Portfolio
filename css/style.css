@@ -13,7 +13,7 @@ body::-webkit-scrollbar{
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(images/header_image/image7.png);
+    background-image: url(../images/header_image/image7.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -509,9 +509,6 @@ section:nth-child(2n + 1) {
     margin-right: 0.5rem;
 }
 
-#contact{
-    
-}
 
 #contact-form input,
 textarea {
