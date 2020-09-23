@@ -305,7 +305,7 @@ section:nth-child(2n + 1) {
     width: 100%;
 }
 
-#timeline-divider {
+.timeline-divider {
     position: absolute;
     width: 0;
     top: 10%;
@@ -315,13 +315,13 @@ section:nth-child(2n + 1) {
     color: #433E3F;
 }
 
-#timeline-divider .timeline-traveller {
+.timeline-divider .timeline-traveller {
     position: sticky;
     top: 135px;
     z-index: 2;
 }
 
-#timeline-divider i {
+.timeline-divider i {
     transform: rotate(90deg);
     margin-top: -35px;
     display: block;
@@ -330,7 +330,7 @@ section:nth-child(2n + 1) {
 }
 
 @media screen and (max-width:600px){
-    #timeline-divider{
+    .timeline-divider{
         left:3.5%;
     }
     .timeline-box{
